@@ -3,5 +3,5 @@ export type Link = { label: string; href: string; icon: string };
 
 export const links: Link[] = [
   { label: "twitch", href: "https://www.twitch.tv/ignis_iso", icon: "" }, // nf-fa-twitch
-  { label: "youtube", href: "https://www.youtube.com/@ignis_iso_vods", icon: "" }, // nf-fa-youtube_play
+  { label: "youtube", href: "https://www.youtube.com/@ignis_iso", icon: "" }, // nf-fa-youtube_play
 ];

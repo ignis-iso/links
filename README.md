@@ -13,6 +13,9 @@ deno task build    # gera o site estático em dist/
 os links ficam em `src/links.ts`. os ícones são glifos da jetbrains mono nerd font
 (códigos em https://www.nerdfonts.com/cheat-sheet).
 
+a programação das lives fica em `src/schedule.ts` (instruções no topo do arquivo). o build roda
+`deno task check:schedule` antes e para se algo estiver inválido.
+
 ## deploy
 
 o workflow `.github/workflows/deploy.yml` publica no pages a cada push na `main`.
