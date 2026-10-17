@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* JetBrains Mono Nerd Font (OFL, ver assets/fonts/OFL.txt), hospedada aqui mesmo. */
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  src: url("./assets/fonts/JetBrainsMonoNerdFont-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  src: url("./assets/fonts/JetBrainsMonoNerdFont-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@theme {
+  --color-ink: #141118;
+  --color-mint: #7dffe8;
+  --font-mono: "JetBrainsMono Nerd Font", ui-monospace, monospace;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@layer base {
+  html,
+  body {
+    @apply bg-ink text-mint font-mono lowercase;
+  }
+}
