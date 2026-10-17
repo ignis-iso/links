@@ -26,7 +26,6 @@ export const recorrentes: Recorrente[] = [
   { dia: "quarta", inicio: "20:00", fim: "23:00", titulo: "games? ou será jogos?", jogo: "a ser decidido" },
   { dia: "quinta", inicio: "20:00", fim: "23:00", titulo: "games? ou será jogos?", jogo: "a ser decidido" },
   { dia: "sexta", inicio: "20:00", fim: "23:00", titulo: "grindando evento", jogo: "Warframe" },
-  { dia: "sábado", inicio: "14:00", fim: "18:00", titulo: "jogos (ou será games?)" },
 ];
 
 export const avulsas: Avulsa[] = [
