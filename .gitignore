@@ -1,2 +1,23 @@
+# dependências (nodeModulesDir: "auto" cria node_modules/ no deno install)
 node_modules/
+
+# build e cache do vite (sem package.json o vite guarda o cache em .vite/ na raiz)
 dist/
+.vite/
+*.timestamp-*.mjs
+
+# variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# editor e sistema
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
