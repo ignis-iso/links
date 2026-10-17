@@ -102,9 +102,12 @@ function Links() {
       <img src={wisp} alt="wisp, o mascote do ignis_iso" className="size-36 sm:size-44" />
 
       <h1 className="mt-2 text-3xl font-bold">
-        {"|>"}ignis_iso
+        {">./"}ignis_iso
         <span className="ml-0.5 animate-[blink_1s_steps(1)_infinite]">|</span>
       </h1>
+      <p className="mt-2 text-center text-xs opacity-50">
+        <i>era pra ser .iso mas nenhuma plataforma deixa</i>
+      </p>
       <p className="mt-2 text-center text-sm opacity-70">
         confere meus links e a programação
       </p>
