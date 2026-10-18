@@ -30,5 +30,5 @@ export const recorrentes: Recorrente[] = [
 ];
 
 export const avulsas: Avulsa[] = [
-  // { data: "2026-10-24", inicio: "10:00", fim: "22:00", titulo: "maratona de warframe", jogo: "Warframe" },
+  { data: "2026-10-18", inicio: "19:00", fim: "22:00", titulo: "12.5 / live quântica", jogo: "a ser decidido" },
 ];
