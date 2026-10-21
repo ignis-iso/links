@@ -21,14 +21,12 @@ export type Recorrente = Transmissao & { dia: DiaDaSemana };
 export type Avulsa = Transmissao & { data: string };
 
 export const recorrentes: Recorrente[] = [
-  { dia: "segunda", inicio: "20:00", fim: "23:00", titulo: "13 / talvez signalis", jogo: "a ser decidido" },
-  { dia: "terça", inicio: "20:00", fim: "23:00", titulo: "14 / só deus sabe", jogo: "a ser decidido" },
-  { dia: "quarta", inicio: "20:00", fim: "23:00", titulo: "15 / idem", jogo: "a ser decidido" },
-  { dia: "quinta", inicio: "20:00", fim: "23:00", titulo: "16 / 🤫", jogo: "a ser decidido" },
-  { dia: "sexta", inicio: "20:00", fim: "23:00", titulo: "17 / ...", jogo: "a ser decidido" },
-  { dia: "sábado", inicio: "18:00", fim: "21:00", titulo: "18 / ç~ç", jogo: "a ser decidido" },
+  { dia: "quarta", inicio: "20:00", fim: "23:00", titulo: "13 / idem", jogo: "a ser decidido" },
+  { dia: "quinta", inicio: "20:00", fim: "23:00", titulo: "14 / 🤫", jogo: "a ser decidido" },
+  { dia: "sexta", inicio: "20:00", fim: "23:00", titulo: "15 / ...", jogo: "a ser decidido" },
+  { dia: "sábado", inicio: "18:00", fim: "21:00", titulo: "16 / ç~ç", jogo: "a ser decidido" },
 ];
 
 export const avulsas: Avulsa[] = [
-  { data: "2026-10-18", inicio: "19:00", fim: "22:00", titulo: "12.5 / live quântica", jogo: "a ser decidido" },
+  { data: "2026-10-18", inicio: "19:00", fim: "22:00", titulo: "16.5 / live quântica", jogo: "a ser decidido" },
 ];
