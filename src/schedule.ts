@@ -21,9 +21,10 @@ export type Recorrente = Transmissao & { dia: DiaDaSemana };
 export type Avulsa = Transmissao & { data: string };
 
 export const recorrentes: Recorrente[] = [
-  { dia: "quarta", inicio: "20:00", fim: "23:00", titulo: "13 / live de quarta", jogo: "a ser decidido" },
-  { dia: "quinta", inicio: "20:00", fim: "23:00", titulo: "14 / live de quinta", jogo: "a ser decidido" },
-  { dia: "sexta", inicio: "20:00", fim: "23:00", titulo: "15 / live de sexta", jogo: "a ser decidido" },
+  { dia: "terça", inicio: "20:00", fim: "23:00", titulo: "16 / live de terça", jogo: "a ser decidido" },
+  { dia: "quarta", inicio: "20:00", fim: "23:00", titulo: "17 / live de quarta", jogo: "a ser decidido" },
+  { dia: "quinta", inicio: "20:00", fim: "23:00", titulo: "18 / live de quinta", jogo: "a ser decidido" },
+  { dia: "sexta", inicio: "20:00", fim: "23:00", titulo: "19 / live de sexta", jogo: "a ser decidido" },
   // { dia: "sábado", inicio: "18:00", fim: "21:00", titulo: "16 / live de sábado", jogo: "a ser decidido" },
 ];
 
