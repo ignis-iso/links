@@ -17,7 +17,7 @@ a programação das lives fica em `src/schedule.ts` (instruções no topo do arq
 `deno task check:schedule` antes e para se algo estiver inválido.
 
 as telas da aba outros ficam em `src/Outros.tsx`, cada uma com o próprio endereço (`#outros/<id>`).
-a lista de mods do minecraft fica em `src/mods.ts`.
+a lista de mods do minecraft fica em `src/mods.ts` e os comandos do chat em `src/comandos.ts`.
 
 ## deploy
 

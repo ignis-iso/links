@@ -1,8 +1,10 @@
+import { comandos } from "./comandos.ts";
 import { mods, urlDoMod } from "./mods.ts";
 
 // Cada tela tem o próprio endereço: #outros/<id>.
 export const telas = [
   { id: "mods-minecraft", nome: "lista de mods do minecraft (26.3)", Conteudo: ModsMinecraft },
+  { id: "comandos", nome: "comandos", Conteudo: Comandos },
 ];
 
 export default function Outros({ tela }: { tela?: string }) {
@@ -46,6 +48,19 @@ function ModsMinecraft() {
             <p>{mod.nome}</p>
             <p className="text-sm opacity-70">{mod.versao} · por {mod.autores}</p>
           </a>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function Comandos() {
+  return (
+    <ul className="mt-6 border-2 border-mint">
+      {comandos.map(({ nome, descricao }) => (
+        <li key={nome} className="border-b border-mint/20 px-3 py-2 last:border-b-0">
+          <p className="font-bold">{nome}</p>
+          <p className="text-sm opacity-70">{descricao}</p>
         </li>
       ))}
     </ul>
