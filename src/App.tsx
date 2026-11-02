@@ -6,7 +6,7 @@ const wisp = `${import.meta.env.BASE_URL}wisp.png`;
 
 const abas = [
   { id: "links", nome: "links" },
-  { id: "programacao", nome: "agenda da semana" },
+  { id: "programacao", nome: "agenda de lives" },
 ] as const;
 type Aba = (typeof abas)[number]["id"];
 
