@@ -16,6 +16,9 @@ os links ficam em `src/links.ts`. os ícones são glifos da jetbrains mono nerd 
 a programação das lives fica em `src/schedule.ts` (instruções no topo do arquivo). o build roda
 `deno task check:schedule` antes e para se algo estiver inválido.
 
+as telas da aba outros ficam em `src/Outros.tsx`, cada uma com o próprio endereço (`#outros/<id>`).
+a lista de mods do minecraft fica em `src/mods.ts`.
+
 ## deploy
 
 o workflow `.github/workflows/deploy.yml` publica no pages a cada push na `main`.

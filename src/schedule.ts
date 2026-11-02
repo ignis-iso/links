@@ -27,7 +27,7 @@ const nomePadrao = (dia: string, numeroDoDia: number): string => {
 }
 
 const populaRecorrentes = (diasComLive: DiaDaSemana[]) => {
-  return Array.from(diasComLive).map((element, indice) => ({
+  return diasComLive.map((element, indice) => ({
     dia: element,
     inicio: "20:00",
     fim: "23:00",
@@ -36,7 +36,15 @@ const populaRecorrentes = (diasComLive: DiaDaSemana[]) => {
   })) as Recorrente[];
 }
 
-const diasComLive: DiaDaSemana[] = ['segunda','terça','quarta','quinta','sexta'];
+const diasComLive: DiaDaSemana[] = [
+  'segunda',
+  'terça',
+  'quarta',
+  'quinta',
+  'sexta',
+  // 'sábado',
+  // 'domingo',
+];
 
 export const recorrentes: Recorrente[] = populaRecorrentes(diasComLive);
 
