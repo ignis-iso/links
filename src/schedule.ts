@@ -20,33 +20,46 @@ type Transmissao = { titulo: string; jogo?: string; inicio: string; fim: string 
 export type Recorrente = Transmissao & { dia: DiaDaSemana };
 export type Avulsa = Transmissao & { data: string };
 
-const primeiroNumeroNaSemana = 19;
-
-const nomePadrao = (dia: string, numeroDoDia: number): string => {
-  return `${primeiroNumeroNaSemana + numeroDoDia - 1} / live de ${dia}`
-}
-
-const populaRecorrentes = (diasComLive: DiaDaSemana[]) => {
-  return diasComLive.map((element, indice) => ({
-    dia: element,
-    inicio: "20:00",
-    fim: "23:00",
-    titulo: nomePadrao(element, indice+1),
-    jogo: "quem sabe? eu não"
-  })) as Recorrente[];
-}
-
-const diasComLive: DiaDaSemana[] = [
-  // 'segunda',
-  'terça',
-  'quarta',
-  'quinta',
-  'sexta',
-  // 'sábado',
-  // 'domingo',
-];
-
-export const recorrentes: Recorrente[] = populaRecorrentes(diasComLive);
+export const recorrentes: Recorrente[] = 
+  // populaRecorrentes(diasComLive);
+  [
+    {
+      dia: 'terça',
+      inicio: "19:30",
+      fim: "22:00",
+      titulo: '19 / olhos 👀 / casa montanha',
+      jogo: "quem sabe? eu, e é minecraft"
+    },
+    {
+      dia: 'quarta',
+      inicio: "19:30",
+      fim: "22:00",
+      titulo: '20 / adivinha',
+      jogo: "games"
+    },
+    {
+      dia: 'quinta',
+      inicio: "19:30",
+      fim: "22:00",
+      titulo: '21 I / opa',
+      jogo: "jogos"
+    },
+    {
+      dia: 'sexta',
+      inicio: "19:30",
+      fim: "22:00",
+      titulo: '21 II / é',
+      jogo: "jogos"
+    },
+    {
+      dia: 'sábado',
+      inicio: "19:30",
+      fim: "22:00",
+      titulo: '23 / sim',
+      jogo: "jogos"
+    },
+  ]
+  ;
 
 export const avulsas: Avulsa[] = [
   // { data: "2026-10-18", inicio: "19:00", fim: "22:00", titulo: "16.5 / live quântica", jogo: "a ser decidido" },
