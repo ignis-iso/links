@@ -41,21 +41,21 @@ export const recorrentes: Recorrente[] =
       dia: 'quinta',
       inicio: "19:30",
       fim: "22:00",
-      titulo: '21 I / opa',
+      titulo: '21 / opa',
       jogo: "jogos"
     },
     {
       dia: 'sexta',
       inicio: "19:30",
       fim: "22:00",
-      titulo: '21 II / é',
+      titulo: '21 2 / é',
       jogo: "jogos"
     },
     {
       dia: 'sábado',
       inicio: "19:30",
       fim: "22:00",
-      titulo: '23 / sim',
+      titulo: '23 / talvez em',
       jogo: "jogos"
     },
   ]
