@@ -37,7 +37,7 @@ const populaRecorrentes = (diasComLive: DiaDaSemana[]) => {
 }
 
 const diasComLive: DiaDaSemana[] = [
-  'segunda',
+  // 'segunda',
   'terça',
   'quarta',
   'quinta',
