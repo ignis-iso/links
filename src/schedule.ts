@@ -23,39 +23,39 @@ export type Avulsa = Transmissao & { data: string };
 export const recorrentes: Recorrente[] = 
   // populaRecorrentes(diasComLive);
   [
-    {
-      dia: 'terça',
-      inicio: "19:30",
-      fim: "22:00",
-      titulo: '19 / olhos 👀 / casa montanha',
-      jogo: "quem sabe? eu, e é minecraft"
-    },
+    // {
+    //   dia: 'terça',
+    //   inicio: "19:30",
+    //   fim: "22:00",
+    //   titulo: '19 / olhos 👀 / casa montanha',
+    //   jogo: "quem sabe? eu, e é minecraft"
+    // },
     {
       dia: 'quarta',
       inicio: "19:30",
       fim: "22:00",
-      titulo: '20 / adivinha',
+      titulo: '19 / olhos 👀',
       jogo: "games"
     },
     {
       dia: 'quinta',
       inicio: "19:30",
       fim: "22:00",
-      titulo: '21 / opa',
+      titulo: '20 / opa',
       jogo: "jogos"
     },
     {
       dia: 'sexta',
       inicio: "19:30",
       fim: "22:00",
-      titulo: '21 2 / é',
+      titulo: '21 / é',
       jogo: "jogos"
     },
     {
       dia: 'sábado',
       inicio: "19:30",
       fim: "22:00",
-      titulo: '23 / talvez em',
+      titulo: '23 1/ pulei',
       jogo: "jogos"
     },
   ]
