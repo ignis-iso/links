@@ -7,7 +7,7 @@ const wisp = `${import.meta.env.BASE_URL}wisp.png`;
 
 const abas = [
   { id: "links", nome: "links" },
-  { id: "programacao", nome: "agenda de lives" },
+  // { id: "programacao", nome: "agenda de lives" },
   { id: "outros", nome: "outros" },
 ];
 
